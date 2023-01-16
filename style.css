@@ -1,3 +1,13 @@
+body {
+    background-image: url("images/abandoned-morgue-psychiatric-hospital.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    text-align: center;
+}
+
 .container {
     display: grid;
     column-gap: 50px;
@@ -26,6 +36,7 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 4;
+    text-align: center;
 }
 .main {
     
@@ -33,7 +44,7 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
-
+    text-align: center;
 }
 .menu {
     grid-column-start: 3;
@@ -43,9 +54,14 @@
 }
 h1 {
     
-    color: azure;
+     background: -webkit-linear-gradient(left, rgb(188, 2, 2) , yellow);
+     background: -o-linear-gradient(right, rgb(177, 2, 2), yellow);
+     background: -moz-linear-gradient(right, rgb(182, 1, 1), yellow);
+     background: linear-gradient(to right, rgb(189, 0, 0) , yellow); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
-}
+  }
 ul {
 
     width: 20%;
@@ -58,9 +74,12 @@ div {
     
     
 }
+label {
+    color: aliceblue;
+}
 
 .new-task-title {
-    display: inline-block;
+    display: flex;
     text-align: center;
     align-self: center;
 }
@@ -68,14 +87,15 @@ div {
 p {
     text-align: center;
     align-self: center;
+    color: #FFF;
 }
 button{
     display:inline-block;
     text-align: center;
     align-self: center;
     position: relative;
-    top: 60%;
-    left: 32%;
+    
+    
     border-radius:10px;
     width: 100%;
     max-width: 150px;

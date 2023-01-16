@@ -4,45 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Evil MadMen</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        #list {
-            list-style: none;
-            padding: 0;
-        }
-        body {
-            background-image: url("images/abandoned-morgue-psychiatric-hospital.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-    </style>
+    
 </head>
 <body>
     
     <div class="container">
         <div class="header"><h1>Evil Scientist</h1></div>
-        <div class="nav"><h1>nav</h1></div>
-        <div class="main"><h1>main</h1>
-            <ul id="list"></ul>
-            <form id="new-task-form">
-                <p class="input">
-                    <input type="text" placeholder="Enter Scientist" id="new-task-title"> <br>
-
-                </p>
+        <div class="nav"><h1>Add Scientist</h1>
+            <form id="myform">
+                <label for="fname">Scientist Name</label><br>
+                <input type="text" placeholder="Enter Scientist name" id="fname" value="Rick"><br>
+                <label for="Henchemen">Number of Henche Men</label><br>
+                <input type="number" placeholder="How many henchemen?" id="henchemen" name="henchemen" value="3"> <br>
+                <label for="Age">Age</label><br>
+                <input type="number" placeholder="Age of this Evil ?" name="age" id="age" value="37"> <br>
+                <label for="evilScientistDescription">Description</label><br><input type="text" tabindex="4" id="description"
+                            name="Description"><br><br>
                 
-                <button class="btn">Add Scientist</button>
+                
+                <button type="submit">Add Scientist</button>
             </form>
-            
         </div>
-        <div class="menu"><h1>menu</h1></div>
+        <section id="main-content">
+            <h1>Your Evil Scientists</h1>
+            
+        </section>
+        <section class="displaybox">
+            <h1>Description</h1>
+            <div id="boxing">
+                <p id="descText"></p>
+            </div>
+
+        </section>
         <div class="footer"><h1>footer</h1></div>
     </div>
     
     
     
     
-    
+    <script defer src="dist/script.js"></script>
     
 
     

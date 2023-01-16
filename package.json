@@ -1,15 +1,23 @@
 {
-  "name": "css-grid",
-  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "name": "evildb",
   "description": "",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "tsc --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrmbengan/EvilDb.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^4.9.4"
-  }
+  "bugs": {
+    "url": "https://github.com/Mrmbengan/EvilDb/issues"
+  },
+  "homepage": "https://github.com/Mrmbengan/EvilDb#readme"
 }
